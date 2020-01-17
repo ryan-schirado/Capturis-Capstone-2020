@@ -1,4 +1,4 @@
-package src.main.java.com.capturis.capstone.webapp.models;
+package com.capturis.capstone.webapp.models;
 
 public class Example {
 

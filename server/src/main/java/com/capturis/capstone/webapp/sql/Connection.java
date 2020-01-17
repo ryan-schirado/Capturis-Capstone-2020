@@ -1,4 +1,4 @@
-package src.main.java.com.capturis.capstone.webapp.sql;
+package com.capturis.capstone.webapp.sql;
 
 
 import java.io.IOException;

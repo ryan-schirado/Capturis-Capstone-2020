@@ -1,7 +1,7 @@
-package src.main.java.com.capturis.capstone.webapp.bo;
+package com.capturis.capstone.webapp.bo;
 
-import src.main.java.com.capturis.capstone.webapp.data.ExampleDataAccess;
-import src.main.java.com.capturis.capstone.webapp.models.Example;
+import com.capturis.capstone.webapp.data.ExampleDataAccess;
+import com.capturis.capstone.webapp.models.Example;
 
 import javax.inject.Inject;
 import java.io.IOException;

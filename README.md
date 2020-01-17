@@ -45,6 +45,7 @@ Client Resources
  
  Server Resources
  - https://howtodoinjava.com/maven/how-to-install-maven-on-windows/
+ - https://mkyong.com/maven/how-to-install-maven-in-windows/
  - https://javapointers.com/tutorial/add-maven-jetty-plugin/
  - https://www.youtube.com/watch?v=VgkNrDZ4PtY
  - https://mvnrepository.com/

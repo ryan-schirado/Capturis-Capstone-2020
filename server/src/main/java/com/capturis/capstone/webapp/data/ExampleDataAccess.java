@@ -1,14 +1,12 @@
-package src.main.java.com.capturis.capstone.webapp.data;
+package com.capturis.capstone.webapp.data;
 
-import src.main.java.com.capturis.capstone.webapp.models.Example;
-import src.main.java.com.capturis.capstone.webapp.sql.Connection;
+import com.capturis.capstone.webapp.models.Example;
+import com.capturis.capstone.webapp.sql.Connection;
 
 import java.io.IOException;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExampleDataAccess extends Connection {
 
@@ -40,7 +38,7 @@ public class ExampleDataAccess extends Connection {
     }
 
     public Example getById(int id) throws SQLException, IOException, Exception {
-        String sql = "SELECT * FROM where id = ?";
+        String sql = "SELECT * FROM example WHERE id = ?";
         PreparedStatement ps = setupPreparedStatement(sql);
         ResultSet rs = null;
 

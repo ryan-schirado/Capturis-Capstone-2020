@@ -12,27 +12,11 @@
         <filter-name>guiceFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-    <!--<filter>-->
-    <!--<filter-name>CorsFilter</filter-name>-->
-    <!--<filter-class>org.apache.catalina.filters.CorsFilter</filter-class>-->
-    <!--<init-param>-->
-    <!--<param-name>cors.allowed.origins</param-name>-->
-    <!--<param-value>*</param-value>-->
-    <!--</init-param>-->
-    <!--<init-param>-->
-    <!--<param-name>cors.allowed.methods</param-name>-->
-    <!--<param-value>GET,POST,HEAD,OPTIONS,PUT</param-value>-->
-    <!--</init-param>-->
-    <!--</filter>-->
-    <!--<filter-mapping>-->
-    <!--<filter-name>CorsFilter</filter-name>-->
-    <!--<url-pattern>/*</url-pattern>-->
-    <!--</filter-mapping>-->
 
     <!--Root Guice Config-->
     <context-param>
         <param-name>resteasy.guice.modules</param-name>
-        <param-value>server.src.main.java.com.capturis.capstone.webapp.GuiceConfig</param-value>
+        <param-value>com.capturis.capstone.webapp.GuiceConfig</param-value>
     </context-param>
 
     <listener>

@@ -1,4 +1,4 @@
-package src.main.java.com.capturis.capstone.webapp;
+package com.capturis.capstone.webapp;
 
 import javax.inject.Singleton;
 import javax.servlet.*;

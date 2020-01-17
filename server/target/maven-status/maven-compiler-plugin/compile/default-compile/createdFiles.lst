@@ -1,8 +1,8 @@
-src\main\java\com\capturis\capstone\webapp\ServerMain.class
-src\main\java\com\capturis\capstone\webapp\api\ExampleResource.class
-src\main\java\com\capturis\capstone\webapp\sql\Connection.class
-src\main\java\com\capturis\capstone\webapp\CORSFilter.class
-src\main\java\com\capturis\capstone\webapp\bo\ExampleBO.class
-src\main\java\com\capturis\capstone\webapp\data\ExampleDataAccess.class
-src\main\java\com\capturis\capstone\webapp\models\Example.class
-src\main\java\com\capturis\capstone\webapp\GuiceConfig.class
+com\capturis\capstone\webapp\bo\ExampleBO.class
+com\capturis\capstone\webapp\ServerMain.class
+com\capturis\capstone\webapp\sql\Connection.class
+com\capturis\capstone\webapp\CORSFilter.class
+com\capturis\capstone\webapp\models\Example.class
+com\capturis\capstone\webapp\GuiceConfig.class
+com\capturis\capstone\webapp\data\ExampleDataAccess.class
+com\capturis\capstone\webapp\api\ExampleResource.class

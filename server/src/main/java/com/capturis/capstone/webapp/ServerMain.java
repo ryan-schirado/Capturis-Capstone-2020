@@ -1,4 +1,4 @@
-package src.main.java.com.capturis.capstone.webapp;
+package com.capturis.capstone.webapp;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

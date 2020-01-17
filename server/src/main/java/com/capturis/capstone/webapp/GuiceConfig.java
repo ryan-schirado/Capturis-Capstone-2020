@@ -1,5 +1,5 @@
-package src.main.java.com.capturis.capstone.webapp;
-import src.main.java.com.capturis.capstone.webapp.api.ExampleResource;
+package com.capturis.capstone.webapp;
+import com.capturis.capstone.webapp.api.ExampleResource;
 import com.google.inject.servlet.ServletModule;
 
 public class GuiceConfig extends ServletModule {

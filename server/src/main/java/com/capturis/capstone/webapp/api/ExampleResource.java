@@ -1,7 +1,7 @@
-package src.main.java.com.capturis.capstone.webapp.api;
+package com.capturis.capstone.webapp.api;
 
-import src.main.java.com.capturis.capstone.webapp.bo.ExampleBO;
-import src.main.java.com.capturis.capstone.webapp.models.Example;
+import com.capturis.capstone.webapp.bo.ExampleBO;
+import com.capturis.capstone.webapp.models.Example;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
