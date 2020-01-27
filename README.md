@@ -11,15 +11,15 @@ for all participants in this project.
 
 Node.js version 12.14.0
 
- - Node Homepage (Use the recommended for most users option if it is version 10.15.0): https://nodejs.org/en/
+ - Node Homepage (Use the recommended for most users option if it is version 12.14.1): https://nodejs.org/en/
  - Past releases: https://nodejs.org/en/download/releases/
  
 Angular CLI version 8.3.2
 
  - After Node is installed, run the following command in a terminal `npm install -g @angular/cli@8.3.2`
  
-The postgresql needs a linux image. These resources were given to last year's team, but it is 
-unknown how their server was set up.
+The postgresql needs a linux image. These resources were given to last year's team, but it is not fully known
+ how their server was set up.
 
  - Minimal VM: https://bitnami.com/stack/postgresql/virtual-machine
  - Installing on Ubuntu: https://www.techrepublic.com/blog/diy-it-guy/diy-a-postgresql-database-server-setup-anyone-can-handle/

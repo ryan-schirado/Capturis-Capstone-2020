@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+/* Structure */
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 750px;
+}
+
+/*mat-card {*/
+  /*margin: 2em;*/
+  /*border: 1px solid;*/
+  /*padding: 10px;*/
+  /*box-shadow: 2px 1px lightgray;*/
+/*}*/
+
+mat-card {
+  margin: 16px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
