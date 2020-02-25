@@ -16,6 +16,15 @@ public class Connection {
     private static  final String DB_USER = "tester"; // database username
     private static  final String DB_PW = "test1234"; // database password
 
+    /*
+    dbname=postgres
+    host=134.129.125.110
+    user=applicationuser
+    password=Capturis2020!
+    port=5432
+    sslmode=require"
+    */
+
     public Statement setupStatement() throws SQLException, IOException {
         java.sql.Connection connection = setUpCommonConnection();
 
@@ -53,4 +62,3 @@ public class Connection {
         return DriverManager.getConnection(DB_CONN, DB_USER, DB_PW);
     }
 }
-
