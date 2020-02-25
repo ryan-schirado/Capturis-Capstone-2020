@@ -12,9 +12,10 @@ import java.sql.Statement;
 import java.util.List;
 
 public class Connection {
-    private static  final String DB_CONN = "jdbc:postgresql://shinji.cs.ndsu.nodak.edu/username_55555"; // database url
-    private static  final String DB_USER = "tester"; // database username
-    private static  final String DB_PW = "test1234"; // database password
+    //jdbc:postgresql://host:port/database
+    private static  final String DB_CONN = "jdbc:postgresql://134.129.125.110:5432/postgres"; // database url
+    private static  final String DB_USER = "applicationuser"; // database username
+    private static  final String DB_PW = "Capturis2020!"; // database password
 
     /*
     dbname=postgres
